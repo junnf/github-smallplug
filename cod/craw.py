@@ -12,6 +12,9 @@ _version = pycurl.version()
 _api_url = 'https://api.github.com/user'
 access_token = '?access_token='
 
+#z.setopt(z.WRITEFUNCTION,a.write)
+#
+
 try: 
     a = open('../../psword/oauth_git.txt')
     oauth = a.read().strip()
