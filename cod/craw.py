@@ -13,7 +13,8 @@ _api_url = 'https://api.github.com/user'
 access_token = '?access_token='
 
 #z.setopt(z.WRITEFUNCTION,a.write)
-#
+#Post-method
+#crl.setopt(crl.POSTFIELDS,  urllib.urlencode(post_data_dic))
 
 try: 
     a = open('../../psword/oauth_git.txt')
